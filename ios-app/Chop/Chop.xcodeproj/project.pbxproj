@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6B02CDB2D0AA83700DDD600 /* ChopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B02CDA2D0AA83700DDD600 /* ChopApp.swift */; };
+		B6B02CDD2D0AA83700DDD600 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B02CDC2D0AA83700DDD600 /* ContentView.swift */; };
+		B6B02CDF2D0AA83A00DDD600 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6B02CDE2D0AA83A00DDD600 /* Assets.xcassets */; };
+		B6B02CE32D0AA83A00DDD600 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6B02CE22D0AA83A00DDD600 /* Preview Assets.xcassets */; };
+		B6B02CED2D0AA83A00DDD600 /* ChopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B02CEC2D0AA83A00DDD600 /* ChopTests.swift */; };
+		B6B02CF72D0AA83A00DDD600 /* ChopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B02CF62D0AA83A00DDD600 /* ChopUITests.swift */; };
+		B6B02CF92D0AA83A00DDD600 /* ChopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B02CF82D0AA83A00DDD600 /* ChopUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6B02CE92D0AA83A00DDD600 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6B02CCF2D0AA83700DDD600 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6B02CD62D0AA83700DDD600;
+			remoteInfo = Chop;
+		};
+		B6B02CF32D0AA83A00DDD600 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6B02CCF2D0AA83700DDD600 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6B02CD62D0AA83700DDD600;
+			remoteInfo = Chop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6B02CD72D0AA83700DDD600 /* Chop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B02CDA2D0AA83700DDD600 /* ChopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChopApp.swift; sourceTree = "<group>"; };
+		B6B02CDC2D0AA83700DDD600 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B6B02CDE2D0AA83A00DDD600 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6B02CE02D0AA83A00DDD600 /* Chop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Chop.entitlements; sourceTree = "<group>"; };
+		B6B02CE22D0AA83A00DDD600 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B6B02CE82D0AA83A00DDD600 /* ChopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B02CEC2D0AA83A00DDD600 /* ChopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChopTests.swift; sourceTree = "<group>"; };
+		B6B02CF22D0AA83A00DDD600 /* ChopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B02CF62D0AA83A00DDD600 /* ChopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChopUITests.swift; sourceTree = "<group>"; };
+		B6B02CF82D0AA83A00DDD600 /* ChopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6B02CD42D0AA83700DDD600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B02CE52D0AA83A00DDD600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B02CEF2D0AA83A00DDD600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6B02CCE2D0AA83700DDD600 = {
+			isa = PBXGroup;
+			children = (
+				B6B02CD92D0AA83700DDD600 /* Chop */,
+				B6B02CEB2D0AA83A00DDD600 /* ChopTests */,
+				B6B02CF52D0AA83A00DDD600 /* ChopUITests */,
+				B6B02CD82D0AA83700DDD600 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6B02CD82D0AA83700DDD600 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6B02CD72D0AA83700DDD600 /* Chop.app */,
+				B6B02CE82D0AA83A00DDD600 /* ChopTests.xctest */,
+				B6B02CF22D0AA83A00DDD600 /* ChopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6B02CD92D0AA83700DDD600 /* Chop */ = {
+			isa = PBXGroup;
+			children = (
+				B6B02CDA2D0AA83700DDD600 /* ChopApp.swift */,
+				B6B02CDC2D0AA83700DDD600 /* ContentView.swift */,
+				B6B02CDE2D0AA83A00DDD600 /* Assets.xcassets */,
+				B6B02CE02D0AA83A00DDD600 /* Chop.entitlements */,
+				B6B02CE12D0AA83A00DDD600 /* Preview Content */,
+			);
+			path = Chop;
+			sourceTree = "<group>";
+		};
+		B6B02CE12D0AA83A00DDD600 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B6B02CE22D0AA83A00DDD600 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B6B02CEB2D0AA83A00DDD600 /* ChopTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6B02CEC2D0AA83A00DDD600 /* ChopTests.swift */,
+			);
+			path = ChopTests;
+			sourceTree = "<group>";
+		};
+		B6B02CF52D0AA83A00DDD600 /* ChopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6B02CF62D0AA83A00DDD600 /* ChopUITests.swift */,
+				B6B02CF82D0AA83A00DDD600 /* ChopUITestsLaunchTests.swift */,
+			);
+			path = ChopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6B02CD62D0AA83700DDD600 /* Chop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6B02CFC2D0AA83A00DDD600 /* Build configuration list for PBXNativeTarget "Chop" */;
+			buildPhases = (
+				B6B02CD32D0AA83700DDD600 /* Sources */,
+				B6B02CD42D0AA83700DDD600 /* Frameworks */,
+				B6B02CD52D0AA83700DDD600 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chop;
+			productName = Chop;
+			productReference = B6B02CD72D0AA83700DDD600 /* Chop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6B02CE72D0AA83A00DDD600 /* ChopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6B02CFF2D0AA83A00DDD600 /* Build configuration list for PBXNativeTarget "ChopTests" */;
+			buildPhases = (
+				B6B02CE42D0AA83A00DDD600 /* Sources */,
+				B6B02CE52D0AA83A00DDD600 /* Frameworks */,
+				B6B02CE62D0AA83A00DDD600 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6B02CEA2D0AA83A00DDD600 /* PBXTargetDependency */,
+			);
+			name = ChopTests;
+			productName = ChopTests;
+			productReference = B6B02CE82D0AA83A00DDD600 /* ChopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6B02CF12D0AA83A00DDD600 /* ChopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6B02D022D0AA83A00DDD600 /* Build configuration list for PBXNativeTarget "ChopUITests" */;
+			buildPhases = (
+				B6B02CEE2D0AA83A00DDD600 /* Sources */,
+				B6B02CEF2D0AA83A00DDD600 /* Frameworks */,
+				B6B02CF02D0AA83A00DDD600 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6B02CF42D0AA83A00DDD600 /* PBXTargetDependency */,
+			);
+			name = ChopUITests;
+			productName = ChopUITests;
+			productReference = B6B02CF22D0AA83A00DDD600 /* ChopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6B02CCF2D0AA83700DDD600 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B6B02CD62D0AA83700DDD600 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					B6B02CE72D0AA83A00DDD600 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = B6B02CD62D0AA83700DDD600;
+					};
+					B6B02CF12D0AA83A00DDD600 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = B6B02CD62D0AA83700DDD600;
+					};
+				};
+			};
+			buildConfigurationList = B6B02CD22D0AA83700DDD600 /* Build configuration list for PBXProject "Chop" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6B02CCE2D0AA83700DDD600;
+			productRefGroup = B6B02CD82D0AA83700DDD600 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6B02CD62D0AA83700DDD600 /* Chop */,
+				B6B02CE72D0AA83A00DDD600 /* ChopTests */,
+				B6B02CF12D0AA83A00DDD600 /* ChopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6B02CD52D0AA83700DDD600 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B02CE32D0AA83A00DDD600 /* Preview Assets.xcassets in Resources */,
+				B6B02CDF2D0AA83A00DDD600 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B02CE62D0AA83A00DDD600 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B02CF02D0AA83A00DDD600 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6B02CD32D0AA83700DDD600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B02CDD2D0AA83700DDD600 /* ContentView.swift in Sources */,
+				B6B02CDB2D0AA83700DDD600 /* ChopApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B02CE42D0AA83A00DDD600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B02CED2D0AA83A00DDD600 /* ChopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B02CEE2D0AA83A00DDD600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B02CF92D0AA83A00DDD600 /* ChopUITestsLaunchTests.swift in Sources */,
+				B6B02CF72D0AA83A00DDD600 /* ChopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6B02CEA2D0AA83A00DDD600 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6B02CD62D0AA83700DDD600 /* Chop */;
+			targetProxy = B6B02CE92D0AA83A00DDD600 /* PBXContainerItemProxy */;
+		};
+		B6B02CF42D0AA83A00DDD600 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6B02CD62D0AA83700DDD600 /* Chop */;
+			targetProxy = B6B02CF32D0AA83A00DDD600 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B6B02CFA2D0AA83A00DDD600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6B02CFB2D0AA83A00DDD600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B6B02CFD2D0AA83A00DDD600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Chop/Chop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chop/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Chop;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smee.Chop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6B02CFE2D0AA83A00DDD600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Chop/Chop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chop/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Chop;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smee.Chop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B6B02D002D0AA83A00DDD600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smee.ChopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chop";
+			};
+			name = Debug;
+		};
+		B6B02D012D0AA83A00DDD600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smee.ChopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chop";
+			};
+			name = Release;
+		};
+		B6B02D032D0AA83A00DDD600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smee.ChopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chop;
+			};
+			name = Debug;
+		};
+		B6B02D042D0AA83A00DDD600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smee.ChopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6B02CD22D0AA83700DDD600 /* Build configuration list for PBXProject "Chop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6B02CFA2D0AA83A00DDD600 /* Debug */,
+				B6B02CFB2D0AA83A00DDD600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6B02CFC2D0AA83A00DDD600 /* Build configuration list for PBXNativeTarget "Chop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6B02CFD2D0AA83A00DDD600 /* Debug */,
+				B6B02CFE2D0AA83A00DDD600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6B02CFF2D0AA83A00DDD600 /* Build configuration list for PBXNativeTarget "ChopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6B02D002D0AA83A00DDD600 /* Debug */,
+				B6B02D012D0AA83A00DDD600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6B02D022D0AA83A00DDD600 /* Build configuration list for PBXNativeTarget "ChopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6B02D032D0AA83A00DDD600 /* Debug */,
+				B6B02D042D0AA83A00DDD600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6B02CCF2D0AA83700DDD600 /* Project object */;
+}
